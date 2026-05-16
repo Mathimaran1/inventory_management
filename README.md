@@ -99,7 +99,6 @@ inventory_management/
 │   └── test_suppliers.py
 │
 ├── .env
-├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── pyproject.toml
@@ -123,28 +122,22 @@ Create a `.env` file in the project root folder.
 
 Add the following values:
 
-```
 MONGODB_URL=mongodb://localhost:27017
 DATABASE_NAME=inventory_db
 SECRET_KEY=your-strong-secret-key
 ACCESS_TOKEN_EXPIRE_MINUTES=60
-```
 
 ---
 
 ## Install Required Packages
 
-```bash
 pip install -r requirements.txt
-```
 
 ---
 
 ## Run the Project
 
-```bash
 uvicorn app.main:app --reload
-```
 
 Server will run at:
 
