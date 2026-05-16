@@ -1,0 +1,34 @@
+# ============================================================
+# Inventory and Purchase System - Python Dependencies
+# ============================================================
+
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# MongoDB Async Driver + ODM
+motor==3.6.0
+beanie==1.26.0
+
+# JWT Authentication
+python-jose[cryptography]==3.3.0
+
+# Password Hashing
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Pydantic v2 with email support
+pydantic[email]==2.8.2
+pydantic-settings==2.4.0
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Form & File upload support
+python-multipart==0.0.12
+
+# Async HTTP Client (optional for testing)
+httpx==0.27.2
